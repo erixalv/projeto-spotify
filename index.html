@@ -54,10 +54,27 @@
     <main class="d-flex align-items-center ">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h1 class="m-5">Música para todos</h1>
-                    <a href="" class="btn btn-lg btn-custom azul text-white my-2">APROVEITE O SPOTIFY FREE</a>
-                    <a href="" class="btn btn-lg btn-custom border border-white text-white ">OBTER O SPOTIFY FREE</a>
+                <div id="carousel" class="col-md-12 text-center carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="m-5">Música para todos</h1>
+                            <a href="" class="btn btn-lg btn-custom azul text-white my-2">APROVEITE O SPOTIFY FREE</a>
+                            <a href="" class="btn btn-lg btn-custom border border-white text-white ">OBTER O SPOTIFY FREE</a>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="m-5">As melhores rádios</h1>
+                            <a href="" class="btn btn-lg btn-custom border border-white text-white my-2">OUÇA AGORA <i class="bi bi-music-note-beamed"></i></a>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                      </a>
                 </div>
             </div>
         </div>
