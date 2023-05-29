@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.411);
 }
 
@@ -20,7 +21,12 @@ header {
 main {
     background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed;
-    height: 100%
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    width: 100%;
 }
 
 nav {
@@ -86,4 +92,15 @@ h3.text-another-change {
 p.text-another-change {
     color: white;
     font-size: 1em;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
 }
