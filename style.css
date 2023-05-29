@@ -29,7 +29,7 @@ nav {
 
 h1 {
     color: white;
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bolder;
 }
 
@@ -68,6 +68,9 @@ section#meio {
     height: 100%;
 }
 
+#celular {
+    width: 100%;
+}
 
 
 h2.text-another-change {
