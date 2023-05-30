@@ -69,7 +69,7 @@ section#meio {
 
 .rotacao {
     transform: rotate(30deg);
-    padding-left: 80px;
+    
     height: 100%;
 }
 
@@ -103,7 +103,10 @@ p.text-another-change {
         font-size: 4em;
     }
 
-    #rotacao {
-        padding-left: 0px;
-    }
+}
+
+@media screen and (min-width: 768px) {
+    .rotacao {
+        padding-left: 80px;
+    } 
 }
