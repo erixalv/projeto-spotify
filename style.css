@@ -110,10 +110,7 @@ p.text-another-change {
 }
 
 @media screen and (min-width: 768px) {
-    #ultimo .container {
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 100%;
-    overflow-x: hidden;
-}
+    .rotacao {
+        padding-left: 80px;
+    } 
 }
